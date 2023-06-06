@@ -16,8 +16,8 @@
     <script>
       function validateNumber(input) {
         var re = /^(\d{3})[- ]?(\d{3})[- ]?(\d{4})$/
-
-        return re.rest(input)
+        var re1= /^(\d{4})[- ]?(\d{4})[- ]?(\d{})$/
+        return re.test(input)
       }
 
       function validateForm(event) {
