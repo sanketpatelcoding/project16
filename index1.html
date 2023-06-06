@@ -114,11 +114,12 @@
             ele.innerHTML = 'Validation Successful'
             ele.style.color = 'green'
             myString = number.replace(/\D/g,'');
+
             var s = document.getElementById('sanitised');
                 s.innerHTML ="sanitised number is:   "+myString+" :no white space, only0-9 digits, north amaericanformate [0-3]-[0-3]-[0-4] valid only ";
                 
                 s.style.color="blue"
-                alert("upon click new windowopen")
+                alert("upon click new window open")
                 wait(3000);
                 window.location.replace("./index.html")
           }
